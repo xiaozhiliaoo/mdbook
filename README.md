@@ -10,14 +10,14 @@ cargo install mdbook
 
 如果已经安装好，每次运行执行以下命令：
 
-mdbook clean
+mdbook clean && mdbook build && mdbook serve  
 
-mdbook build
-
-mdbook serve  
+也可以执行脚本./start.sh
 
 本地访问地址：http://localhost:3000/
 
 
-## TODO
+## Config
+
+需要配置book.toml中github地址
 
